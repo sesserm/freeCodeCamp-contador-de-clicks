@@ -1,6 +1,8 @@
 import './App.css';
 import freeCodeCampLogo from './imagenes/logo-freecodecamp.png';
 import Boton from './componentes/Boton.js'
+import Contador from './componentes/Contador.js'
+
 
 const manejarClick = () => {
     console.log("click");
@@ -17,6 +19,8 @@ function App() {
         <img className='freecodecamp-logo' src={freeCodeCampLogo} alt='logo-freecodecamp'/>
       </div>
       <div className='contenedor-principal'>
+        <Contador 
+        numClicks = '5'/>
         <Boton 
           texto = 'Click'
           esBotonDeClick = {true}
@@ -25,7 +29,6 @@ function App() {
           texto = 'Reiniciar'
           esBotonDeClick = {false}
           manejarClick = {reiniciarContador} />
-          
       </div>
     </div>
   );
