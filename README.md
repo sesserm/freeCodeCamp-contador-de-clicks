@@ -3,4 +3,4 @@ Este proyecto fue elaborado como parte del curso "Aprende React Desde Cero - Cur
 Los recursos fueron tomados de la pagina principal y su uso es meramente educativo. 
 
 
-    ## Elaborado el 28/11/2022
+    ## Elaborado el 30/11/2022
