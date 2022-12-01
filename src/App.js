@@ -9,14 +9,14 @@ import { useState } from 'react';
 
 function App() {
 
-  const [numClicks, setNumClics] = useState(0); 
+  const [numClicks, setNumClicks] = useState(0); 
 
   const manejarClick = () => {
-    setNumClics(numClicks + 1);
+    setNumClicks(numClicks + 1);
   }
 
   const reiniciarContador = () => {
-    setNumClics(0);
+    setNumClicks(0);
   }
 
   return (
